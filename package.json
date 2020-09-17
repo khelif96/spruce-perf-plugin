@@ -1,7 +1,6 @@
 {
   "name": "spruce-perf-plugin",
   "version": "0.1.0",
-  "private": true,
   "main": "dist/index.js",
   "private": false,
   "files": [
@@ -10,8 +9,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "URL_OF_YOUR_REPOSITORY"
-  }
+    "url": "https://github.com/khelif96/spruce-perf-plugin"
+  },
   "dependencies": {
     "@apollo/client": "^3.2.0",
     "@testing-library/jest-dom": "^4.2.4",
