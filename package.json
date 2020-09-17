@@ -1,5 +1,5 @@
 {
-  "name": "@mohamed.khelif-mongo/spruce-perf-plugin",
+  "name": "@mohamed.khelif-mongo/perf-plugin",
   "version": "0.1.1",
   "main": "dist/index.js",
   "private": false,
