@@ -1,5 +1,5 @@
 {
-  "name": "spruce-perf-plugin",
+  "name": "@mohamed.khelif-mongo/spruce-perf-plugin",
   "version": "0.1.0",
   "main": "dist/index.js",
   "private": false,
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/khelif96/spruce-perf-plugin"
+    "url": "git+https://github.com/khelif96/spruce-perf-plugin.git"
   },
   "dependencies": {
     "@apollo/client": "^3.2.0",
@@ -30,7 +30,7 @@
     "eject": "react-scripts eject",
     "codegen": "graphql-codegen --config codegen.js",
     "clean": "rimraf dist",
-    "compile": "npm run clean && NODE_ENV=production babel src/components --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,stories.js,__snapshots__"
+    "compile": "npm run clean && cross-env NODE_ENV=production babel src/components --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,stories.js,__snapshots__"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -69,5 +69,12 @@
     "eslint-plugin-react": "7.19.0",
     "eslint-plugin-react-hooks": "2.5.1",
     "rimraf": "^3.0.2"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "bugs": {
+    "url": "https://github.com/khelif96/spruce-perf-plugin/issues"
+  },
+  "homepage": "https://github.com/khelif96/spruce-perf-plugin#readme",
+  "author": "mohamed.khelif",
+  "license": "ISC"
 }
