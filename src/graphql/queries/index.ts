@@ -1,1 +1,0 @@
-export { AWS_REGIONS } from "./aws_regions";

@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 
 interface TrendChartsProps {
     someProp: string;
 }
 export const TrendCharts: React.FC<TrendChartsProps> = ({ someProp }) => {
 
-
+    const [isHidden, setIsHidden] = useState(false);
     return (
         <div>
-            Some trend chart
-            heres your prop {someProp}
+            <button onClick={() => setIsHidden(!isHidden)}>Hide Content</button>
+            {isHidden && <>Some trend chart
+            something else
+            heres your prop {someProp}</>}
         </div>
     )
 }
+
